@@ -70,7 +70,7 @@ if __name__ == "__main__":
 
     # 3. Save the data (x, y, label) to a CSV file
     #    Each row looks like: x_value, y_value, label
-    np.savetxt('kmeans_data_with_labels.csv', data_with_labels, delimiter=',')
+    # np.savetxt('kmeans_data_with_labels.csv', data_with_labels, delimiter=',')
 
     # 4. Visualize the dataset in different colors by label
     visualize_dataset_with_labels(data_with_labels)
